@@ -1,11 +1,10 @@
 
 def main():
-    count = 0
-    prev = 0
+    count: int = 0
     with open("input", "r") as f:
-        f.readline()
+        prev: int = int(f.readline().strip())        
         for line in f:
-            num = int(line.strip())
+            num: int = int(line.strip())
             if num > prev:
                 count += 1
             prev = num
