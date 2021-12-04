@@ -9,7 +9,7 @@ def main():
             lineBits = list(line.strip())
             if lineBits[0] == '0':
                 candidates0.append(lineBits)
-            elif lineBits[0] == '1':
+            else:
                 candidates1.append(lineBits)
         oxy, co2 = 0, 0
         if len(candidates0) > len(candidates1):
