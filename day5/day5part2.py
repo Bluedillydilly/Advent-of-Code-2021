@@ -1,3 +1,7 @@
+"""
+    LOOK INTO TRIES FOR MORE EFFICIENCY
+"""
+
 def main() -> None:
     f = open("input.1", "r")
     
