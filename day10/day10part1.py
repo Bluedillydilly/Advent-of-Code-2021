@@ -31,3 +31,4 @@ def syntaxErrorScore() -> int:
     
 if __name__ == "__main__":
     print( "Total error score: ", syntaxErrorScore())
+    
