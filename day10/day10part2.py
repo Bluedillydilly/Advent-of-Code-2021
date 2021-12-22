@@ -1,10 +1,3 @@
-from typing import NamedTuple
-
-class Symbol(NamedTuple):
-    start: str
-    end: str
-    score: int
-
 def syntaxErrorScore() -> int:
     f = open("input", "r")
     
